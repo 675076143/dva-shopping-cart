@@ -3,7 +3,7 @@ export default {
   state:{},
   reducers:{
     'delete'(state,payload){
-      console.log("product.reducters=>delete")
+      console.log("product.reducers=>delete")
       console.log(payload)
       return state
     }

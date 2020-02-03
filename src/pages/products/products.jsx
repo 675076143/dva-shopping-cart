@@ -48,7 +48,7 @@ class Products extends React.Component{
             Order by &nbsp;
             <Select defaultValue="Select" style={{ width: 120 }} onChange={this.handleChange}>
               {order.map(v=>(
-                <Option value={v}>{v}</Option>
+                <Option value={v} key={v}>{v}</Option>
               ))}
             </Select>
           </div>

@@ -1,7 +1,6 @@
 .cartItem>div{
-  padding: 0;
+  padding: 10px 0;
   display: flex;
-  justify-content: start;
 }
 
 .cartItem{
@@ -11,7 +10,8 @@
   object-fit: scale-down;
 }
 .cartItemHandle{
-  margin-left: 60px;
+  width: 150px;
+  margin-right: 30px;
   text-align: right;
 }
 .cartItemHandle>h3{

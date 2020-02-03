@@ -1,23 +1,11 @@
 import React, {Fragment} from "react";
-import {Badge, Button, Drawer, Icon, Radio} from "antd";
+import {Badge, Button, Drawer, Icon, message, Radio} from "antd";
 import  style from './cart.css'
 import CartItem from "../cartItem/cartItem";
+import {connect} from "dva";
 const RadioGroup = Radio.Group;
 class Cart extends React.Component{
-  state = { visible: false, placement: 'left' ,data:{
-      "id": 12,
-      "sku": 12064273040195392,
-      "title": "Cat Tee Black T-Shirt",
-      "description": "4 MSL",
-      "availableSizes": ["S", "XS"],
-      "style": "Black with custom print",
-      "price": 10.9,
-      "installments": 9,
-      "currencyId": "USD",
-      "currencyFormat": "$",
-      "isFreeShipping": true
-    }};
-
+  state = { visible: false};
   showDrawer = () => {
     this.setState({
       visible: true,
@@ -30,16 +18,18 @@ class Cart extends React.Component{
     });
   };
 
-  onChange = e => {
-    this.setState({
-      placement: e.target.value,
-    });
-  };
+  total = ()=>{
+    let result = 0;
+   this.props.cart.shoppingCartItems.map(v=>{
+     result += v.num*v.price
+   })
+    return result;
+  }
   render() {
     return(
       <Fragment>
         <Button className={style.cartIcon} onClick={this.showDrawer} >
-          <Badge count={5} style={{cursor:"pointer"}}>
+          <Badge count={this.props.cart.shoppingCartItems.length} style={{cursor:"pointer"}}>
             <Icon type="shopping-cart" style={{fontSize:'30px'}}/>
           </Badge>
         </Button>
@@ -51,14 +41,30 @@ class Cart extends React.Component{
           onClose={this.onClose}
           visible={this.state.visible}
         >
-          <CartItem data={this.state.data}/>
+          {
+            //取出购物车中的数据动态生成节点
+            this.props.cart.shoppingCartItems.map(v=>(
+              <CartItem key={v.id+v.size} data={v}/>
+            ))
+            // console.log(this.props)
+          }
+          <div className={style.cartBottom}>
+            <div>
+              <h2>SUBTOTAL</h2>
+              <div>
+                <h1>{"$ "+this.total()}</h1>
+              </div>
+            </div>
+            <Button onClick={()=>{message.info("total: $"+this.total())}}>CHECKOUT</Button>
+          </div>
         </Drawer>
       </Fragment>
 
     )
   }
-
-
 }
 
-export default Cart
+const mapStateToProps = state=>{
+  return state
+}
+export default connect(mapStateToProps)(Cart);

@@ -7,7 +7,7 @@ const Size = () => {
     <div className={style.size}>
       <h2>Sizes:</h2>
       {sizes.map((v=>(
-        <Button size='large' shape='circle'>{v}</Button>
+        <Button size='large' shape='circle' key={v}>{v}</Button>
       )))}
     </div>
   );
