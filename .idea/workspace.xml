@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e97144-6eba-4a71-b444-8c424d2e1958" name="Default Changelist" comment="" />
+    <list default="true" id="d3e97144-6eba-4a71-b444-8c424d2e1958" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cart/cart.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cartItem/cartItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cartItem/cartItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/gitHubCorner/githubCorner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/gitHubCorner/githubCorner.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/productItem/productItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/productItem/productItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/size/size.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/size/size.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/products/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/products/products.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/bag-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/instagram-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/100_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/100_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/101_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/101_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/10412368723880252_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/10412368723880252_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/10547961582846888_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/10547961582846888_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/10686354557628304_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/10686354557628304_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/11033926921508488_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/11033926921508488_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/11600983276356164_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/11600983276356164_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/11854078013954528_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/11854078013954528_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/12064273040195392_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/12064273040195392_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/18532669286405344_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/18532669286405344_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/18644119330491310_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/18644119330491310_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/27250082398145996_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/27250082398145996_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/39876704341265610_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/39876704341265610_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/51498472915966370_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/51498472915966370_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/5619496040738316_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/5619496040738316_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/6090484789343891_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/6090484789343891_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/8552515751438644_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/8552515751438644_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/876661122392077_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/876661122392077_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/9197907543445676_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/products/9197907543445676_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/sprite_delete-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.webpackrc" beforeDir="false" afterPath="$PROJECT_DIR$/.webpackrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/IndexPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/IndexPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/IndexPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/test.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XHGN9wGyYCKBzrayOSimw8ulqd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,12 +92,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\dva-shopping-cart\src\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\dva-shopping-cart\src" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580695563352</updated>
-      <workItem from="1580695565007" duration="3577000" />
+      <workItem from="1580695565007" duration="22700000" />
     </task>
     <servers />
   </component>
@@ -56,5 +143,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="387" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580695604854" />
+    <state x="310" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580720094360">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="310" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580720094360" />
   </component>
 </project>

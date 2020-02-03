@@ -5,8 +5,8 @@ export  default  class Test extends Component{
   componentDidMount() {
     reqProducts().then(res=>{
       console.log(res);
-    })
-  }
+})
+}
 
   render() {
     return(

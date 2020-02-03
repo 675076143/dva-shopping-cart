@@ -1,0 +1,23 @@
+.cartItem>div{
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+
+.cartItem{
+  border: none;
+}
+.avatar>img{
+  object-fit: scale-down;
+}
+.cartItemHandle{
+  margin-left: 60px;
+  text-align: right;
+}
+.cartItemHandle>h3{
+  color: orangered;
+}
+.cartItemHandle>button{
+  padding-left: 8px;
+  padding-right: 8px;
+}
