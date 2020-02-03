@@ -1,7 +1,9 @@
+import storageUtils from "../utils/storageUtils";
+
 export  default {
   namespace:'cart',
   state:{
-    shoppingCartItems:[]
+    shoppingCartItems:storageUtils.getCart()
   },
 
   reducers:{
@@ -29,6 +31,8 @@ export  default {
         console.log('不存在')
         state.shoppingCartItems.push(action.payload)
       }
+      //localStorage中存储
+      storageUtils.setCart(state.shoppingCartItems);
       return {...state,...action.payload}
     },
     /**
@@ -47,6 +51,8 @@ export  default {
           }
         }
       }
+      //localStorage中存储
+      storageUtils.setCart(state.shoppingCartItems);
       return {...state,...action.payload}
     },
     'deleteProduct'(state,action){
@@ -56,6 +62,8 @@ export  default {
           state.shoppingCartItems.splice(i,1)
         }
       }
+      //localStorage中存储
+      storageUtils.setCart(state.shoppingCartItems);
       return {...state,...action.payload}
     }
   }

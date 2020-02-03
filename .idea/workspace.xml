@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e97144-6eba-4a71-b444-8c424d2e1958" name="Default Changelist" comment="功能：排序shu'c">
+    <list default="true" id="d3e97144-6eba-4a71-b444-8c424d2e1958" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/storageUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/size/size.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/size/size.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/size/size.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/size/size.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/products/products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products/products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,6 +49,7 @@
       <recent name="D:\Documents\GitHub\dva-shopping-cart\src\pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\dva-shopping-cart\src\utils" />
       <recent name="D:\Documents\GitHub\dva-shopping-cart\src" />
     </key>
   </component>
@@ -76,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580695563352</updated>
-      <workItem from="1580695565007" duration="39240000" />
+      <workItem from="1580695565007" duration="40146000" />
     </task>
     <task id="LOCAL-00001" summary="静态页面搭建完成">
       <created>1580727926975</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580750528317</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="功能：排序与筛选">
+      <created>1580755680535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580755680535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,21 +107,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="静态页面搭建完成" />
     <MESSAGE value="功能：添加至购物车" />
-    <option name="LAST_COMMIT_MESSAGE" value="功能：添加至购物车" />
+    <MESSAGE value="功能：排序与筛选" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：排序与筛选" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580695604854">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="387" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580695604854" />
-    <state x="245" y="29" key="CommitChangelistDialog2" timestamp="1580752958566">
+    <state x="245" y="29" key="CommitChangelistDialog2" timestamp="1580755678998">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="245" y="29" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580752958566" />
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580750533797">
+    <state x="245" y="29" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580755678998" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580755687552">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580750533797" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580755687552" />
     <state x="310" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580750294940">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
