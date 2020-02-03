@@ -52,7 +52,7 @@ class Cart extends React.Component{
             <div>
               <h2>SUBTOTAL</h2>
               <div>
-                <h1>{"$ "+this.total()}</h1>
+                <h1>{"$ "+this.total().toFixed(2)}</h1>
               </div>
             </div>
             <Button onClick={()=>{message.info("total: $"+this.total())}}>CHECKOUT</Button>

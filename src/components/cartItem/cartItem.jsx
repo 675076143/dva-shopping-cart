@@ -48,7 +48,7 @@ class CartItem extends Component{
         />
         <div className={style.cartItemHandle}>
           <Icon type="close" style={{cursor:'pointer'}} onClick={this.deleteProduct} />
-          <h3>{currencyFormat} {price*num}</h3>
+          <h3>{currencyFormat} {(price*num).toFixed(2)}</h3>
           <Button onClick={()=>{this.changeNum('decrease')}} disabled={num<=1?true:false}><Icon type="minus" /></Button>
           <Button onClick={()=>{this.changeNum('increase')}}><Icon type="plus" /></Button>
         </div>
