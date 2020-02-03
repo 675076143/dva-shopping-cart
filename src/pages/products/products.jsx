@@ -10,7 +10,7 @@ class Products extends React.Component{
 
   state = {
     products:[],
-    order:['Select','Lowest to highest','Highest to Lowest']
+    order:['Select','Lowest to highest','Highest to lowest']
   }
 
   componentDidMount() {
@@ -22,18 +22,50 @@ class Products extends React.Component{
     })
   }
 
-  handleDelete =(id)=> {
-    console.log("clicked")
-    this.props.dispatch({
-      type:'products/delete',
-      payload:{
-        name:"Robin"
-      },
+  /**
+   * 排序
+   * @param value
+   */
+  handleChange = value=> {
+    console.log(`selected ${value}`);
+    const products = [...this.state.products]
+    switch (value) {
+      case 'Select':
+        products.sort((a,b)=>{
+          return a.id-b.id
+        });
+        break;
+      case "Lowest to highest":
+        products.sort((a,b)=>{
+          return a.price-b.price
+        });
+        break;
+      case "Highest to lowest":
+        products.sort((a,b)=>{
+          return a.price-b.price
+        }).reverse();
+        break;
+      default:
+        break;
+    }
+    this.setState({
+      products
     })
   }
 
-  handleChange = value=> {
-    console.log(`selected ${value}`);
+  isInChecked(availableSizes){
+    const {checkedSizes} = this.props.products
+    //如果选中列表为空，代表全选
+    if(checkedSizes.length === 0) return true;
+    let result = false;
+    //判断是否被选中
+    for(let i of  availableSizes){
+      if(checkedSizes.indexOf(i)!==-1){
+        return true
+      }
+    }
+    return false
+
   }
 
   render() {
@@ -46,7 +78,7 @@ class Products extends React.Component{
           <h4>{num} Product(s) found.</h4>
           <div>
             Order by &nbsp;
-            <Select defaultValue="Select" style={{ width: 120 }} onChange={this.handleChange}>
+            <Select defaultValue="Select" style={{ width: 150 }} onChange={this.handleChange}>
               {order.map(v=>(
                 <Option value={v} key={v}>{v}</Option>
               ))}
@@ -54,7 +86,7 @@ class Products extends React.Component{
           </div>
         </div>
         {products.map((v,k)=>(
-          <ProductItem data={v} key={k}/>
+          this.isInChecked(v.availableSizes)?<ProductItem data={v} key={k}/>:''
         ))}
       </div>
     )

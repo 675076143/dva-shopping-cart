@@ -1,11 +1,12 @@
 export default {
   namespace:'products',
-  state:{},
+  state:{
+    checkedSizes:[]
+  },
   reducers:{
-    'delete'(state,payload){
-      console.log("product.reducers=>delete")
-      console.log(payload)
-      return state
+    'checkedSizes'(state,action){
+      state.checkedSizes = action.payload;
+      return {...state,...action.payload}
     }
   }
 }

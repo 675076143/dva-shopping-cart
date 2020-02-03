@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3e97144-6eba-4a71-b444-8c424d2e1958" name="Default Changelist" comment="">
+    <list default="true" id="d3e97144-6eba-4a71-b444-8c424d2e1958" name="Default Changelist" comment="功能：排序shu'c">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart/cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cartItem/cartItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cartItem/cartItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cartItem/cartItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cartItem/cartItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/productItem/productItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/productItem/productItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/size/size.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/size/size.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/size/size.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/size/size.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/products/products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products/products.jsx" afterDir="false" />
     </list>
@@ -82,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580695563352</updated>
-      <workItem from="1580695565007" duration="34847000" />
+      <workItem from="1580695565007" duration="39240000" />
     </task>
     <task id="LOCAL-00001" summary="静态页面搭建完成">
       <created>1580727926975</created>
@@ -91,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580727926975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="功能：添加至购物车">
+      <created>1580750528317</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580750528317</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,21 +100,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="静态页面搭建完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态页面搭建完成" />
+    <MESSAGE value="功能：添加至购物车" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能：添加至购物车" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="309" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580695604854">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="387" y="309" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580695604854" />
-    <state x="245" y="29" key="CommitChangelistDialog2" timestamp="1580727924342">
+    <state x="245" y="29" key="CommitChangelistDialog2" timestamp="1580752958566">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="245" y="29" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580727924342" />
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580727947751">
+    <state x="245" y="29" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580752958566" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580750533797">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580727947751" />
+    <state x="239" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1366.728@0.0.2560.1040" timestamp="1580750533797" />
     <state x="310" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1580750294940">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
